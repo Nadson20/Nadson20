@@ -1,0 +1,17 @@
+COMANDOS
+>apt update && apt upgrade
+> apt install git
+> pkg install ffmpeg
+> apt install wget
+> pkg install nodejs
+> pkg install npm
+
+termux-setup-storage
+cd /sdcard/zeusbr
+npm i -g pm2 
+
+exit
+
+cd /sdcard/zeusbr
+pm2 start index.js
+pm2 monit

@@ -1,0 +1,32 @@
+
+pkg upgrade && pkg update
+
+pkg install git
+
+pkg install unzip
+
+git clone https://github.com/Darkziinh/darkbot
+
+ls
+
+cd darkbot
+
+unzip Dark.zip
+
+ls
+
+cd Dark-main
+
+bash install.sh
+
+npm start
+
+CASO O BOT FIQUE CAINDO USE ESSES COMANDOS :
+
+npm i -g pm2
+
+pm2 start index.js
+
+pm2 monit
+
+
